@@ -1,0 +1,14 @@
+--aggregate built-in function
+select sum(sal) from emp
+select max (sal) from emp
+select min(sal) from emp
+select avg(sal) from emp
+select count(id) from emp
+
+--scalar built-in function
+select upper(f_name) from emp
+select lower(f_name ) from emp
+select concat(f_name,concat(' ',l_name) from emp
+select substr(name,0,2) from emp
+select round(sal) from emp
+select length(name) from emp
