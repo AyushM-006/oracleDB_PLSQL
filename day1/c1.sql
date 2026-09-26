@@ -24,3 +24,16 @@ delete from emp where id = 456
 
 --Q7  
 select * from emp
+
+--Q8
+select f_name from emp where dept ='Sales'
+
+--Q9
+select sal from emp 
+  
+--Q10
+select f_name , l_name , age from emp 
+  
+--Q11
+select f_name,sal from emp
+
