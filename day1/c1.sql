@@ -37,3 +37,11 @@ select f_name , l_name , age from emp
 --Q11
 select f_name,sal from emp
 
+--Q12
+alter table emp rename column age to e_age
+
+--Q13  
+alter table emp drop column address
+
+--Q14  
+truncate table emp
