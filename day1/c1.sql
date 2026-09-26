@@ -15,3 +15,12 @@ into emp values(3,'Mitsy','Hop','Dev',25000,20,'Mumbai')
 into emp values(123,'Ash','Gary','Dev',15000,20,'Mumbai')
 into emp values(456,'Tom','kusrsten','Dev',11000,20,'Mumbai')
 select * from dual
+
+--Q5
+update emp set sal = 60000 where id = 123
+
+--Q6  
+delete from emp where id = 456
+
+--Q7  
+select * from emp
