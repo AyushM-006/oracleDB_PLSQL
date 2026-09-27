@@ -42,3 +42,7 @@ alter table book rename column author to BookAuthor
 
 --Q13
 alter table book drop column PublicationYear 
+
+--Q14
+
+truncate table book
