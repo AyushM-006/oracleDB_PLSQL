@@ -18,3 +18,9 @@ select * from dual
 
 --Q5
 update book set price = 500 where bookid=123
+
+--Q6
+delete from book where bookid=456
+  
+--Q7
+select * from book
