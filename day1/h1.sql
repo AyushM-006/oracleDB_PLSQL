@@ -27,3 +27,6 @@ select * from book
 
 --Q8
 select title from book
+
+--Q9
+select price from book
