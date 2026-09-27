@@ -5,3 +5,6 @@ create table book(bookid int,title varchar2(100),author varchar2(30),price decim
 alter table book add PublicationYear int
 
 --Q3
+alter table book modify price decimal(10,2)
+
+--
