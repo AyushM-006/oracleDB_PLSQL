@@ -36,3 +36,6 @@ select title,author,PublicationYear from book
 
 --Q11
 select title,price from book
+
+--Q12
+alter table book rename column author to BookAuthor
