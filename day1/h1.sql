@@ -24,3 +24,6 @@ delete from book where bookid=456
   
 --Q7
 select * from book
+
+--Q8
+select title from book
