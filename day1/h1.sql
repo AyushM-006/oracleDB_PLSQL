@@ -30,3 +30,9 @@ select title from book
 
 --Q9
 select price from book
+
+--Q10
+select title,author,PublicationYear from book
+
+--Q11
+select title,price from book
