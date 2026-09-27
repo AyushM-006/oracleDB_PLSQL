@@ -16,4 +16,5 @@ into book values(123,'Harry Potter','JK Rowling',1200,1985,1990)
 into book values(456,'Harry Potter','JK Rowling',1200,1985,1990)
 select * from dual
 
-
+--Q5
+update book set price = 500 where bookid=123
