@@ -7,4 +7,13 @@ alter table book add PublicationYear int
 --Q3
 alter table book modify price decimal(10,2)
 
---
+--Q4
+insert all
+into book values(1,'Harry Potter','JK Rowling',1200,1985,1990)
+into book values(2,'Harry Potter','JK Rowling',1200,1985,1990)
+into book values(3,'Harry Potter','JK Rowling',1200,1985,1990)
+into book values(123,'Harry Potter','JK Rowling',1200,1985,1990)
+into book values(456,'Harry Potter','JK Rowling',1200,1985,1990)
+select * from dual
+
+
