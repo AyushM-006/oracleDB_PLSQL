@@ -28,3 +28,7 @@ select * from dual
 
 --Q7
 update emp1 set salary = 60000 where eid = 5
+
+--Q8
+delete from emp1 where dept=3
+delete from depts where did=3
