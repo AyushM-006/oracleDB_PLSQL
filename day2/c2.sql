@@ -16,3 +16,12 @@ into depts values (1,'IT')
 into depts values (2,'Sales')
 into depts values (3,'Account')
 select * from dual
+
+--Q6
+insert all 
+into emp1 values (1,'Tom','Riddle',2,40000)
+into emp1 values (2,'Tom','Riddle',1,68000)
+into emp1 values (3,'Tom','Riddle',2,72000)
+into emp1 values (4,'Tom','Riddle',1,30000)
+into emp1 values (5,'Tom','Riddle',3,20000)
+select * from dual
