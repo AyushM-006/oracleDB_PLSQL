@@ -10,7 +10,7 @@ create table emp1 (eid int primary key,fname varchar(50),lname varchar(50),dept 
 --Q4
  insert into emp1 values(1,'Tom','Potter',2,23000)
 
---Q5
+--Q6
 insert all
 into depts values (1,'IT')
 into depts values (2,'Sales')
