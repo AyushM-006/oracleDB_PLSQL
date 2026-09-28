@@ -25,3 +25,6 @@ into emp1 values (3,'Tom','Riddle',2,72000)
 into emp1 values (4,'Tom','Riddle',1,30000)
 into emp1 values (5,'Tom','Riddle',3,20000)
 select * from dual
+
+--Q7
+update emp1 set salary = 60000 where eid = 5
