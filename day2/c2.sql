@@ -17,7 +17,7 @@ into depts values (2,'Sales')
 into depts values (3,'Account')
 select * from dual
 
---Q6
+--Q5
 insert all 
 into emp1 values (1,'Tom','Riddle',2,40000)
 into emp1 values (2,'Tom','Riddle',1,68000)
