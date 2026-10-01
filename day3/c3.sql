@@ -6,3 +6,6 @@ select avg(salary) from emp1
 
 --Q3
 select max(salary) from emp1
+
+--Q4
+select min(salary) from emp1
