@@ -9,3 +9,6 @@ select max(salary) from emp1
 
 --Q4
 select min(salary) from emp1
+
+--Q5
+select upper(fname),upper(lname) from emp1
