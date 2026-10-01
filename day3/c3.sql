@@ -18,3 +18,6 @@ select length(fname) from emp1
 
 --Q7
 select concat(fname,concat(' ',lname)) from emp1
+
+--Q8
+select * from emp1 order by salary desc fetch first 5 rows only
