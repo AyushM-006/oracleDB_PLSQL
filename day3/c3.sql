@@ -24,3 +24,5 @@ select * from emp1 order by salary desc fetch first 5 rows only
 
 --Q9
 select dept,sum(salary) from emp1 group by dept
+
+--Q10
