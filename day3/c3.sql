@@ -12,3 +12,6 @@ select min(salary) from emp1
 
 --Q5
 select upper(fname),upper(lname) from emp1
+
+--Q6
+select length(fname) from emp1
