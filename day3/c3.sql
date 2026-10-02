@@ -33,3 +33,5 @@ select dept,count(eid) from emp1 group by dept having count(eid) > 1
 
 --Q12
 select dept,min(salary),max(salary) from emp1 group by dept
+
+--Q13
