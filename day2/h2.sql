@@ -9,3 +9,5 @@ create table orders (o_id int primary key,c_id int,orderDate date)
 
 --Q4
 create table orderdetails (orderdetail_id int primary key,order_id int references orders(o_id),p_id references products(pid),quan int)
+
+--Q5
