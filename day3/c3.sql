@@ -36,3 +36,5 @@ select dept,min(salary),max(salary) from emp1 group by dept
 
 --Q13
 select * from emp1 order by lname 
+
+--Q14
