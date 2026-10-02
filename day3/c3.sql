@@ -41,3 +41,4 @@ select * from emp1 order by lname
 select dept,avg(salary) from emp1 group by dept having avg(salary)>50000
 
 --Q15
+select * from emp1 order by salary desc
