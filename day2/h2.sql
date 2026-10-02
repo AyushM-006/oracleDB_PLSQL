@@ -6,3 +6,5 @@ create table categories (c_id int primary key,c_name varchar2(50))
 
 --Q3
 create table orders (o_id int primary key,c_id int,orderDate date)
+
+--Q4
