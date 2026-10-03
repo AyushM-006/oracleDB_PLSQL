@@ -41,4 +41,4 @@ select * from dual
 
 --Q10
 insert into orderdetails values(1,1,2,10)
-more will be written later
+insert into orderdetails values(2,1,1,2)
