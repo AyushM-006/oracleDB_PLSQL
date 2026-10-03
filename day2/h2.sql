@@ -31,3 +31,10 @@ into products values(3,'Tab',5000,3)
 into products values(4,'Phone',10000,3)
 into products values(5,'Shirt',500,2)
 select * from dual
+
+--Q9
+insert all
+into orders(o_id,c_id) values(1,2)
+into orders(o_id,c_id) values(2,1)
+into orders(o_id,c_id) values(3,1)
+select * from dual
