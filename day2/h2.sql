@@ -38,3 +38,7 @@ into orders(o_id,c_id) values(1,2)
 into orders(o_id,c_id) values(2,1)
 into orders(o_id,c_id) values(3,1)
 select * from dual
+
+--Q10
+insert into orderdetails values(1,1,2,10)
+more will be written later
