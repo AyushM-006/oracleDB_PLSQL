@@ -17,3 +17,8 @@ alter table products add constraint cate_fk foreign key (categoryid) references 
 alter table orders add constraint ord_fk foreign key (c_id) references categories(c_id) 
 
 --Q7
+insert all
+into categories values(1,'Food') 
+into categories values(2,'Clothing')
+into categories values(3,'Electronics')
+select * from dual
