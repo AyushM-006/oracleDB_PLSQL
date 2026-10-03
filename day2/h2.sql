@@ -15,3 +15,5 @@ alter table products add constraint cate_fk foreign key (categoryid) references 
 
 --Q6
 alter table orders add constraint ord_fk foreign key (c_id) references categories(c_id) 
+
+--Q7
