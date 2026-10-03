@@ -22,3 +22,12 @@ into categories values(1,'Food')
 into categories values(2,'Clothing')
 into categories values(3,'Electronics')
 select * from dual
+
+--Q8
+insert all 
+into products values(1,'Cadbury',10,1)
+into products values(2,'Maggi',15,1)
+into products values(3,'Tab',5000,3)
+into products values(4,'Phone',10000,3)
+into products values(5,'Shirt',500,2)
+select * from dual
