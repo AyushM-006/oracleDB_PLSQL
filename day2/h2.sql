@@ -45,7 +45,6 @@ insert into orderdetails values(2,1,1,2)
 insert into orderdetails values(3,2,1,50);
 
 
-more will be added later
 insert into products(
     106,'invalid',5000,89
 );
