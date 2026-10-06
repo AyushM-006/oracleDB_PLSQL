@@ -57,3 +57,6 @@ where product_id=1;
 --Q13
 select * from products;
 
+--Q14
+delete from orderdetails where detail_product_id=5;
+
