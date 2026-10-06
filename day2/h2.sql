@@ -50,16 +50,16 @@ insert into products(
 );
 
 --Q12
-update products
-set price=65000
-where product_id=1;
+update products set price=65000 where pid=1;
 
 --Q13
 select * from products;
 
 --Q14
-delete from orderdetails where detail_product_id=5;
+delete from orderdetails where p_id=5;
 
 --Q15
-select * from products
-where product_category_id=3;
+select * from products where categoryid=3;
+
+--Q16
+delete from categories where c_id=3;
