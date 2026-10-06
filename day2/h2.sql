@@ -60,3 +60,6 @@ select * from products;
 --Q14
 delete from orderdetails where detail_product_id=5;
 
+--Q15
+select * from products
+where product_category_id=3;
