@@ -53,3 +53,7 @@ insert into products(
 update products
 set price=65000
 where product_id=1;
+
+--Q13
+select * from products;
+
