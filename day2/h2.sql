@@ -48,3 +48,8 @@ insert into orderdetails values(3,2,1,50);
 insert into products(
     106,'invalid',5000,89
 );
+
+--Q12
+update products
+set price=65000
+where product_id=1;
