@@ -7,4 +7,6 @@ select avg(price) from products
 --Q3
 select max(price) from products
 
---
+--Q4
+select min(price) from products
+
