@@ -18,3 +18,6 @@ select length(pname) from products
 
 --Q7
 select concat(pname,concat(' ',price)) from products
+
+--Q8
+select * from products order by price desc fetch first 5 rows only
