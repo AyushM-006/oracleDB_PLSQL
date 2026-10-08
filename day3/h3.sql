@@ -15,3 +15,6 @@ select upper(pname) from products
 
 --Q6
 select length(pname) from products
+
+--Q7
+select concat(pname,concat(' ',price)) from products
