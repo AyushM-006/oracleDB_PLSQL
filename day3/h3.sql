@@ -21,3 +21,6 @@ select concat(pname,concat(' ',price)) from products
 
 --Q8
 select * from products order by price desc fetch first 5 rows only
+
+--Q9
+select p_id,sum(quan) from orderdetails group by p_id  
