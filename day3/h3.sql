@@ -12,3 +12,6 @@ select min(price) from products
 
 --Q5
 select upper(pname) from products
+
+--Q6
+select length(pname) from products
