@@ -10,3 +10,5 @@ select max(price) from products
 --Q4
 select min(price) from products
 
+--Q5
+select upper(pname) from products
