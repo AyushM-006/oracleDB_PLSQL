@@ -1,2 +1,5 @@
 --Q1
 select count(pid) from products
+
+--Q2
+select avg(price) from products
