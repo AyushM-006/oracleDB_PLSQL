@@ -30,3 +30,6 @@ select categoryid,min(price),max(price) from products group by categoryid
 
 --Q11
 select * from products order by pname
+
+--Q12
+select categoryid,avg(price) from products group by categoryid 
