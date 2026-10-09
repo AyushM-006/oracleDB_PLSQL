@@ -33,3 +33,6 @@ select * from products order by pname
 
 --Q12
 select categoryid,avg(price) from products group by categoryid 
+
+--Q13
+select * from products order by price desc
