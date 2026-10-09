@@ -27,3 +27,6 @@ select p_id,sum(quan) from orderdetails group by p_id
 
 --Q10
 select categoryid,min(price),max(price) from products group by categoryid
+
+--Q11
+select * from products order by pname
