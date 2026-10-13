@@ -9,4 +9,8 @@ end;
 begin
     add_employee(5,'Tom','Banton',1,30000);
 end;
+begin
+    add_employee(6,'Tom','Holland',2,80000);
+    add_employee(7,'Harry','Potter',1,75000);
+end;
 --Q2
