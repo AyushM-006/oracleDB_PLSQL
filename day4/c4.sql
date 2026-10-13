@@ -5,3 +5,8 @@ begin
     insert into emp1 values (id,f_name,l_name,depart,sal);
     dbms_output.put_line('Added');
 end;
+
+begin
+    add_employee(5,'Tom','Banton',1,30000);
+end;
+--Q2
