@@ -22,3 +22,7 @@ begin
     dbms_output.put_line('Updated'); 
 end;
 
+begin
+    update_emp(6,55000);
+end;
+
