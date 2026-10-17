@@ -15,3 +15,10 @@ begin
 end;
 
 --Q2
+create or replace procedure update_emp(id in int,sal in decimal)
+is 
+begin
+    update emp1 set salary=sal where eid =id;
+    dbms_output.put_line('Updated'); 
+end;
+
