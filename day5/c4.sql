@@ -33,3 +33,7 @@ begin
     delete from emp1 where eid = id;
     dbms_output.put_line('deleted');
 end;
+
+begin
+    del_emp(7);
+end;
