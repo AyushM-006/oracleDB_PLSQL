@@ -26,3 +26,10 @@ begin
     update_emp(6,55000);
 end;
 
+--Q3
+create or replace procedure del_emp(id in int)
+is 
+begin
+    delete from emp1 where eid = id;
+    dbms_output.put_line('deleted');
+end;
