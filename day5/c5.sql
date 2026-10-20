@@ -40,3 +40,7 @@ end;
 begin
     del_emp(6);
 end;
+begin
+    del_emp(5);
+end;
+
