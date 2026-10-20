@@ -37,3 +37,6 @@ end;
 begin
     del_emp(7);
 end;
+begin
+    del_emp(6);
+end;
