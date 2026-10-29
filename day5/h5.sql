@@ -5,3 +5,8 @@ begin
     insert into products values (id,name,pri,c_id);
     dbms_output.put_line('Added');
 end;
+
+
+begin
+    add_product(8,'FiveStar',20,1);
+end;
